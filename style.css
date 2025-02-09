@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'S-CoreDream-3Light';
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#searchForm {
+    margin-top: 50px;
+}
+
+#hospitalList {
+    margin-top: 50px;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.favorite {
+    cursor: pointer;
+    font-size: 20px;
+    color: gray;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.favorite.active {
+    color: gold;
+}
