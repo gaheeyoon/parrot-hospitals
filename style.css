@@ -37,3 +37,9 @@ h1 {
 .favorite.active {
     color: gold;
 }
+
+#mapButton { 
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
